@@ -1,0 +1,23 @@
+.conteiner {
+    padding: 30px 0 0 30px;
+}
+
+.counter{
+    border: 3px solid silver;
+    padding: 30px;
+    width: 250px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+}
+
+.paragraph {
+    font-size: 30px;
+    margin: 0 25px 0px 25px;
+}
