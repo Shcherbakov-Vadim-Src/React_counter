@@ -6,15 +6,15 @@ class Counter extends Component {
    }
 
 clickOnOff = (e) => {
-      const paragraph = document.querySelector('.paragraph');
-      if(this.state.value > -10 && this.state.value < 10) {
+      
+      if(this.state.value > -10) {
          this.setState({value: this.state.value - 1})
       }  
 }
 
 clickOnAdd = (e) => {
-        const paragraph = document.querySelector('.paragraph');
-        if(this.state.value > -10 && this.state.value < 10) {
+        
+        if(this.state.value < 10) {
             this.setState({value: this.state.value + 1})
    }  
 }
